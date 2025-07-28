@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task session 2</title>
+  </head>
+
+  <body>
+    <form>
+      <table border="5" cellspacing="4" width="80%"  align="center">
+        <thead>
+          <th style="color: red;" bgcolor="yellow" colspan="2">Registration Form</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="center" bgcolor="sky blue">
+              <label> Enter Name</label>
+            </td>
+            <td colspan="2" bgcolor="sky blue" >
+              <input type="text" pattern="[A-Za-z]{3,10}" name="userName">
+            </td>
+          </tr>
+          <tr>
+            <td align="center" bgcolor="sky blue">
+              <label> Enter password</label>
+            </td>
+            <td bgcolor="sky blue" colspan="2"> 
+              <input type="password" name="userPassword" required 
+              pattern="^(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,16}$">
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" bgcolor="sky blue" align="center">Enter Address</td>
+            <td rowspan="2" bgcolor="sky blue" colspan="2">
+              <textarea name="" rows="3" cols="40"> </textarea>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td align="center" bgcolor="sky blue" rowspan="3">Select Game</td>
+            <td bgcolor="sky blue" colspan="2">
+              <input type="checkbox" name="Game" value="Ho"> <label>Hockey</label><br>
+              <input type="checkbox" name="Game" value="Fb"> <label>Football</label><br>
+              <input type="checkbox" name="Game" value="Bm"> <label>Badminton</label><br>
+              <input type="checkbox" name="Game" value="Cr"> <label>Cricker</label><br>
+              <input type="checkbox" name="Game" value="vb"> <label>volleyball</label>
+            </td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          <tr>
+            <td align="center" bgcolor="sky blue">
+              Gender
+            </td>
+            <td bgcolor="sky blue" colspan="2">
+              <input type="radio" name="Gender" value="male"> <label>Male</label>
+              <input type="radio" name="Gender" value="female"> <label>Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="sky blue" align="center">Select ur age</td>
+            <td bgcolor="sky blue" colspan="2">
+              <select name="userAge">
+                <option selected disabled>Select</option>
+                <option>18-24</option>
+                <option>25-30</option>
+                <option>30-36</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" bgcolor="sky blue">Select Photo</td>
+            <td bgcolor="sky blue" colspan="2">
+              <input type="file" name="userFile" accept=".png">
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td bgcolor="sky blue" align="center" colspan="3">
+              <input type="button" value="Click Me" style="width: 30%;">
+              <input type="reset" value="Reset" style="width: 30%;">
+              <input type="submit" value="Submit Form" style="width: 30%;">
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>
