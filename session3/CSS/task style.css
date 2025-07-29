@@ -1,0 +1,70 @@
+.all{
+    display: flex;
+    
+}
+
+
+.intro{
+    display: inline-block;
+    padding-top: 5%  ;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    background-color: rgb(0, 181, 212);
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 41%;
+    box-shadow: 0px 8px 25px
+    rgba(0, 0, 0, 0.3);
+    
+}
+
+.contact{
+    display: block;
+    padding-top: 5% ;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 45%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 8px 25px
+    rgba(0, 0, 0, 0.3);
+    
+
+}
+.contact h2{
+    text-align: center;
+}
+
+.input{
+    margin-bottom: 15px;
+    border-style: none;
+    background: lightgray;
+    padding: 15px;
+    width: 80%;
+    margin-left: 5% ;
+    margin-right: 5%;
+}
+
+.i{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+#button{
+    border-radius: 20px;
+    background-color: rgb(0, 181, 212);
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-style: none;
+    text-align: center;
+    display: block;
+    margin-left: 35%;
+    
+}
