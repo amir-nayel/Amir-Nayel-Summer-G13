@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url(''); /* أو الصورة اللي عندك */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: orange;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.left-side {
+  max-width: 50%;
+}
+
+.left-side h1 {
+  font-size: 48px;
+}
+
+.left-side h1 span {
+  color: orange;
+}
+
+.left-side h2 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.left-side p {
+  margin-bottom: 20px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.left-side button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.right-side {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.right-side h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.right-side .free {
+  color: orange;
+  font-weight: bold;
+}
+
+.right-side input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.start-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
