@@ -1,0 +1,81 @@
+/*-----------------reset style--------------------*/
+
+*{
+    margin: 0%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  
+  
+  
+  color: white;
+}
+
+
+
+
+
+
+/*global style------------------------*/
+
+.nav{
+    
+    color: white;
+    width: 80%;
+    padding: 2%;
+    margin: 0% auto;
+}
+
+.dis-inline-block{
+    display: inline-block;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: orange;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main{
+    background-image: url('../images/'); /* أو الصورة اللي عندك */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+/*custom style-----------------------------*/
