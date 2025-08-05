@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.dis-flex{
+    display: flex;
+}
+.pos-abs{
+    position: absolute;
+}
+.color-wh{
+    color: white;
+
+}
+.justify-content-between{
+    justify-content: space-between;
+    
+}
+.justify-content-center{
+    justify-content: center;
+}
+.position-relative{
+    position: relative;
+}
+/*------------------------------------------*/
+.bg-trans{
+    background-color: transparent;
+}
+
+.container{
+    width: 88%;
+    margin: 1% 6%;
+}
+
+.nav{
+    width: 60%;
+}
+.nav span{
+    font-weight: 700;
+
+}
+.container ul{
+    width: 70%;
+    font-weight: 200;
+    font-size: small;
+    
+}
+.align-items-center{
+    align-items: center;
+}
+
+/*--------------------------------------------*/
+.intro{
+    background-image: url(../images/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba.png);
+    height:auto;
+}
+.intro div{
+    width: 40%;
+    padding: 10%;
+    
+}
+/*-------------------------------------------*/
+.section-2{
+    width: 88%;
+    margin: 5% 6%;
+}
+.section-2 hr{
+    margin: 3% 0%;
+}
+
+.products{
+    width: 90%;
+    text-align: center;
+    border: 0.5px solid black;
+    padding: 5% 3%;
+}
+.product-cat{
+    width: 40%;
+    justify-content: space-between;
+    text-align: center;
+    margin: 5% 28%;
+    
+}
+.products img{
+    border-radius: 5px;
+    width: 97%;
+}
+/*----------------------------------------------------*/
+.section-3{
+     width: 88%;
+    margin: 10% 6%;
+}
+.section-3 hr{
+    margin: 3% 0%;
+}
+
+.services{
+    width: 90%;
+    text-align: center;
+    border: 0.5px solid black;
+    padding: 5% 3%;
+}
+.service-s{
+    width: 34.5%;
+
+}
+.service-s div{
+    width: 95%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.service-s img{
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.service-l{
+    width: 33%;
+    
+}
+.service-l div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.service-l img{
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 97.5%;
+}
+/*-----------------------------------------------------------*/
+.section-4{
+     width: 88%;
+    margin: 10% 6%;
+}
+.about-us{
+    width: 38%;
+}
+.about-us p{
+    margin-bottom: 5%;
+}
+
+#about-img-1{
+    width: 23%;
+    aspect-ratio: 1 / 1;
+    border-radius: 30px;
+    position: absolute;
+    right: 26%;
+    top: 72%;
+    border: 20px solid white;
+}
+#about-img-2{
+    border-radius: 10px;
+    
+
+}
+/*---------------------------------------------------------*/
+.section-5 {
+     width: 88%;
+    margin: 10% 6%;
+
+}
+.team-card{
+    width: 20%;
+}
