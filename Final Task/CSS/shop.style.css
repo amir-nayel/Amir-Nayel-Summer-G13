@@ -1,0 +1,91 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.sidebar {
+    min-width: 240px
+}
+
+.filter-title {
+    font-weight: 600;
+    font-size: .95rem
+}
+
+.count {
+    color: #9aa0a6;
+    font-size: .85rem
+}
+
+.badge-hot {
+    background: #ff4d4d
+}
+
+.badge-sale {
+    background: #ff6b6b
+}
+
+.product-card .img-wrap {
+    position: relative;
+    background: #f6f7f9;
+    border-radius: .5rem;
+    overflow: hidden
+}
+
+.product-card .img-wrap::before {
+    content: "";
+    display: block;
+    padding-top: 75%
+}
+
+.product-card .badge-top {
+    position: absolute;
+    left: .5rem;
+    top: .5rem
+}
+
+.price-old {
+    text-decoration: line-through;
+    color: #9aa0a6;
+    font-size: .9rem
+}
+
+.small-muted {
+    font-size: .88rem;
+    color: #6c757d
+}
+
+.form-check .count {
+    float: right
+}
+
+.rating i {
+    font-size: .9rem
+}
+
+.pagination .page-link {
+    border-radius: .5rem
+}
+
+.sticky-col {
+    position: sticky;
+    top: 1rem
+}
+
+.controls .btn,
+.controls .dropdown-toggle {
+    border-radius: .5rem
+}
+
+.w-28 {
+    width: 28px
+}
+
+.h-28 {
+    height: 28px
+}
+
+.color-dot {
+    border: 1px solid #e5e7eb;
+    border-radius: 4px
+}

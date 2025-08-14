@@ -1,0 +1,106 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+}
+
+.product-main-image-container {
+    position: relative;
+}
+
+.hot-badge {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    background-color: #d9534f;
+    color: white;
+    padding: 3px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.product-thumbnails img {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 70px;
+    /* Fixed width for thumbnails */
+    height: 70px;
+    object-fit: cover;
+}
+
+.product-thumbnails img:hover,
+.product-thumbnails img.active {
+    border-color: #000;
+}
+
+.product-price {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #212529;
+}
+
+.btn-buy-now {
+    background-color: #d9534f;
+    color: white;
+}
+
+.btn-buy-now:hover {
+    background-color: #c9302c;
+    color: white;
+}
+
+.cash-back-banner {
+    background-color: #c7fdc7;
+    border-radius: 8px;
+}
+
+
+
+#btn-success:hover{
+    background: transparent;
+    color: white;
+    border-color: white;
+
+}
+
+.specifications-table .spec-title {
+    font-weight: bold;
+    width: 150px;
+}
+
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+}
+
+.related-product-card {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.related-product-card .card-body {
+    text-align: center;
+}
+
+.related-product-card .card-title {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.related-product-card .card-text {
+    font-weight: bold;
+}
+
+.social-icons a {
+    color: #6c757d;
+    text-decoration: none;
+    margin-left: 15px;
+}
